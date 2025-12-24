@@ -87,7 +87,7 @@ Lukas (the barista) just said/did: "${lukasMessage}"
 Respond as ${characterInfo.name} in 2-4 sentences. React naturally to Lukas, show your personality, and let chemistry develop organically. You can notice things about Lukas, respond to what he says, or interact with him.`;
 
     try {
-      const response = await fetch('http://localhost:3001/api/chat', {
+      const response = await fetch('https://sweet-caffeine.onrender.com/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
